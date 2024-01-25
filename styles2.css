@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+body {
+    background-color:cornflowerblue;
+    width: 100%;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.table2 {
+    position: fixed;
+    top: 0px;
+    border: solid;
+    border-collapse: collapse;
+    background-color: black;
+    text-align: center;
+    border: solid;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: black;
+    z-index: 3000;
+}    
+.padding {
+    height: 30px;
+    width: 400px;
+    padding-left: 80px;
+    padding-right: 100px;
+    text-transform: uppercase;
+    border-color: black;
+    font-size: larger;
+    vertical-align: middle;
+}
+.injuries {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    z-index:2;
+}
+.class1 {
+    position: absolute;
+    top: 260px;
+    left: 120px;
+    text-align: center;
+    font-size:large;
+    z-index:2;
+    text-transform: none;
+}
+.picture1 {
+    position: absolute;
+    left: 860px;
+    top: 95px;
+    width: 350px; 
+    border-radius: 10px;
+    z-index: 11;
+}
+.picture2 {
+    position: absolute;
+    border-radius:10px;
+    width: 300px;
+    left: 570px;
+    top: 150px;
+    z-index: 9;
+}
+.picture3 {
+    position: absolute;
+    border-radius: 10px;
+    width: 330px;
+    left: 850px;
+    top: 250px;
+    z-index: 10;
+}
+.table1 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 600px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 0px;
+}
+.page {
+    padding-bottom: 100px;
+    font-family: Arial;
+    font-size: large; 
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#help {
+    cursor: help;
+    color: white;
+}
+.div {
+    position: absolute;
+    top: 120%;
+    width: 100%;
+    background-color:deepskyblue;
+    height: 400px;
+}
+.picture4 {
+    position: absolute;
+    left: 80px;
+    bottom: 10px;
+    border-radius: 1px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.text1 {
+    position: absolute;
+    color: black;
+    text-align: center;
+    left: 850px;
+    bottom: 150px;
+    font-size: large;
+    letter-spacing: normal;
+    text-decoration: none;
+}
+.none {
+    color: black;
+    text-transform: none;
+    text-decoration: none;
+}
+/* unvisited link */
+a:link {
+    color: black;
+}
+  
+  /* visited link */
+a:visited {
+    color: black;
+}
+  
+  /* mouse over link */
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+  
+  /* selected link */
+a:active {
+    color: white;
+}
+.link {
+    text-decoration: none;
+}
+#link {
+    background-color: black;
+    color: white;
+}
+.name1 {
+    position: absolute;
+    bottom: 225px;
+    color: black;
+    font-size:169px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.name2 {
+    position: absolute;
+    bottom: 30px;
+    left: 400px;
+    color: black;
+    font-size: 169px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
